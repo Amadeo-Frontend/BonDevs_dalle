@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@plasmohq/parcel-transformer-inject-env": "^0.2.7",
+    "aos": "^2.3.4",
     "dotenv": "^16.0.3",
     "openai": "^3.2.1"
   },

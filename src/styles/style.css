@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(199, 121, 255);
+    background-color: rgb(32, 32, 32);
 }
 
 body {
@@ -15,6 +15,7 @@ body {
     height: 100vh;
     justify-content: space-between;
     align-items: center;
+    overflow-x: hidden;
 }
 
 header {
@@ -29,6 +30,10 @@ header h1 {
     font-size: 2rem;
     color: white;
     margin-left: 20px;
+}
+
+header h1 a:hover {
+    color: blue;
 }
 
 .bottom-section {
@@ -65,6 +70,10 @@ input {
     cursor: pointer;
 }
 
+#submit-icon:hover {
+    transform: scale(1.5);
+}
+
 .images-section {
     width: 100%;
     max-width: 600px;
@@ -75,14 +84,21 @@ input {
 }
 
 .image-container {
-    width: 48%;
+    width: 45%;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
+    margin-bottom: 8px;
 }
 
 .image-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.image-container img:hover {
+    transform: scale(1.2);
+    transform-origin: center;
 }

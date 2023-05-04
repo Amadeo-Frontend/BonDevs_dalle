@@ -32,6 +32,7 @@ const getImages = async () => {
       imageContainer.classList.add("image-container");
       const imageElement = document.createElement("img");
       imageElement.setAttribute("src", imageObject.url);
+
       imageContainer.append(imageElement);
       imageSection.append(imageContainer);
     });
