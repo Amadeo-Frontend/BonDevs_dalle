@@ -102,3 +102,24 @@ input {
     transform: scale(1.2);
     transform-origin: center;
 }
+
+@media (max-width: 768px) {
+    h1 {
+        text-align: center;
+    }
+
+    .image-container {
+        width: 100%;
+        display: block;
+    }
+
+    #submit-icon {
+        right: 10px;
+    }
+}
+
+@media (max-width: 380px) {
+    input::placeholder {
+        color: transparent;
+    }
+}
