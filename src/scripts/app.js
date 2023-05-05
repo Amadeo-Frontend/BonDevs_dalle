@@ -42,3 +42,8 @@ const getImages = async () => {
 };
 
 submitIcon.addEventListener("click", getImages);
+submitIcon.addEventListener("keyup", (e) => {
+  if (e.keyCode === 13) {
+    handleSubmit(e);
+  }
+});
