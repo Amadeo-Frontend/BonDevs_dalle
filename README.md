@@ -1,7 +1,7 @@
 
 
 <h1 align="center"> BonDevs_dalle Image Generator</h1>
-#
+
 <div align="center">
 LIVE:  https://bondevs-dalle.onrender.com/  
 </div>
